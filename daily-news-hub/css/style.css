@@ -23864,3 +23864,11 @@ transparent
   margin-inline: auto;
   padding-inline: 1rem;
 }
+
+/* Responsive container */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
