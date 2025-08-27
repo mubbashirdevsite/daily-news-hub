@@ -23856,3 +23856,11 @@ transparent
   --radius: 0.5rem;
   --shadow: 0 1px 3px rgba(0,0,0,.12);
 }
+
+/* Responsive container */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
