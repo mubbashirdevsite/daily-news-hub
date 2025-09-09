@@ -1139,3 +1139,7 @@ pip install -r requirements.txt
 - Improved performance
 - Fixed edge case in validation
 - Updated dependencies
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
