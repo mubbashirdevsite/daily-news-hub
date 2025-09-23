@@ -1147,3 +1147,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+> **Note:** This feature is still in development. Please report any bugs via GitHub Issues.
