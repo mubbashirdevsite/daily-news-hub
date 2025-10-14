@@ -33047,3 +33047,17 @@ transparent
   --radius: 0.5rem;
   --shadow: 0 1px 3px rgba(0,0,0,.12);
 }
+
+/* Button base */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem 1rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity .2s;
+}
+.btn:hover { opacity: .85; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
