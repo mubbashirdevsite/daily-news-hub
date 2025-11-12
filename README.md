@@ -1236,3 +1236,11 @@ python main.py --config config.yaml
 ```
 
 > **Note:** This feature is still in development. Please report any bugs via GitHub Issues.
+
+## Installation
+
+```bash
+npm install
+# or
+pip install -r requirements.txt
+```
