@@ -38915,3 +38915,10 @@ transparent
 }
 .btn:hover { opacity: .85; }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
+
+/* Flex utilities */
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.gap-4 { gap: 1rem; }
