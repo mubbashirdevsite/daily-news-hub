@@ -48054,3 +48054,11 @@ transparent
   white-space: nowrap;
   border: 0;
 }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0f172a;
+    --color-text: #e2e8f0;
+  }
+}
