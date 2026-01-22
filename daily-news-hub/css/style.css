@@ -52628,3 +52628,11 @@ transparent
 }
 .btn:hover { opacity: .85; }
 .btn:disabled { opacity: .5; cursor: not-allowed; }
+
+/* Card */
+.card {
+  background: var(--color-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
