@@ -1696,3 +1696,13 @@ npm install
 # or
 pip install -r requirements.txt
 ```
+
+## Usage
+
+```bash
+# Basic usage
+python main.py --help
+
+# Run with config
+python main.py --config config.yaml
+```
