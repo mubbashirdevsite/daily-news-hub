@@ -1733,3 +1733,13 @@ pip install -r requirements.txt
 - Improved performance
 - Fixed edge case in validation
 - Updated dependencies
+
+## Usage
+
+```bash
+# Basic usage
+python main.py --help
+
+# Run with config
+python main.py --config config.yaml
+```
