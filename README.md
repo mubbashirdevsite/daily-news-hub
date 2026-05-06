@@ -1836,3 +1836,11 @@ python main.py --config config.yaml
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 > **Note:** This feature is still in development. Please report any bugs via GitHub Issues.
+
+## Installation
+
+```bash
+npm install
+# or
+pip install -r requirements.txt
+```
