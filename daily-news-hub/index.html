@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily News Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Daily News Hub</p>
+        <h1>Premium news experience for professionals.</h1>
+      </div>
+      <button class="mode-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="toggle-track"></span>
+        <span class="toggle-thumb"></span>
+      </button>
+    </header>
+
+    <section class="hero-panel">
+      <div class="hero-copy">
+        <p class="eyebrow">Trusted insights</p>
+        <h2>Stay ahead of the story with instant headlines.</h2>
+        <p>Explore curated news in technology, business, sports, health, and entertainment—updated instantly.</p>
+      </div>
+      <form id="searchForm" class="search-panel">
+        <label for="searchInput" class="visually-hidden">Search news</label>
+        <input id="searchInput" type="search" placeholder="Search by keyword..." autocomplete="off" />
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="category-bar" aria-label="News categories">
+      <button class="category-btn active" data-category="technology">Technology</button>
+      <button class="category-btn" data-category="business">Business</button>
+      <button class="category-btn" data-category="sports">Sports</button>
+      <button class="category-btn" data-category="health">Health</button>
+      <button class="category-btn" data-category="entertainment">Entertainment</button>
+    </section>
+
+    <main>
+      <div class="status-panel" id="statusPanel">
+        <p class="status-title">Latest headlines</p>
+        <p class="status-copy">Curated by Daily News Hub. Search or pick a category to refresh stories.</p>
+      </div>
+
+      <section class="news-grid" id="newsGrid" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
