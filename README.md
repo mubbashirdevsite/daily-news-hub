@@ -33,7 +33,7 @@ API	NewsAPI
 Fonts	Google Fonts (Inter)
 🚀 Getting Started
 1. Clone Repository
-git clone https://github.com/yourusername/daily-news-hub.git
+git clone https://https://github.com/mubbashirdevsite/
 2. Open Project
 
 Simply open index.html in your browser.
