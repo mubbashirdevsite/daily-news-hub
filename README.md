@@ -1910,3 +1910,11 @@ python main.py --help
 # Run with config
 python main.py --config config.yaml
 ```
+
+## Installation
+
+```bash
+npm install
+# or
+pip install -r requirements.txt
+```
