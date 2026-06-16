@@ -1988,3 +1988,11 @@ python main.py --config config.yaml
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Installation
+
+```bash
+npm install
+# or
+pip install -r requirements.txt
+```
