@@ -87226,3 +87226,12 @@ transparent
 .items-center { align-items: center; }
 .justify-between { justify-content: space-between; }
 .gap-4 { gap: 1rem; }
+
+:root {
+  --color-primary: #3b82f6;
+  --color-secondary: #64748b;
+  --color-bg: #ffffff;
+  --color-text: #1e293b;
+  --radius: 0.5rem;
+  --shadow: 0 1px 3px rgba(0,0,0,.12);
+}
